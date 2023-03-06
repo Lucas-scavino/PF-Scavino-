@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+<!-- le da imagen al lado del nombre de la pestaña  -->
+    <link rel="shortcut icon" href="../imagnes/logo.png" type="imagne/x-icon">  
+  <!-- link a css si o si tiene que estar en el head-->
+  <link rel="stylesheet" href="../paginas/Css/style.css">
+<!-- las fuentes de google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600&display=swap" rel="stylesheet">
+  </head>
+
+<body class="body">
+<header>
+ <img width="60" src="../imagnes/logo.png" alt="Logo de la empresa">
+ <div class="nav"> 
+  <nav>
+  <ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href= "./PyR.html">Tipos de rejas y portones</a></li> 
+  <li><a href="./techo.html">Todo sobre Techos</a></li>
+  <li><a href="./AyC.html">Todo sobre Automatizaciones y servicios</a></li> 
+  <li><a href="./bye.html">Todo sobre baranda y escaleras</a></li>
+</ul>
+<div class="redes">
+  <ul>
+<li><img width="20"  src="../imagnes/youtube.png" alt="logo youtube"></li>
+<li><img width="20" src="../imagnes/instagram.png" alt="logo instegram"></li>
+<li><img width="20"  src="../imagnes/facebook.png" alt=" logo facebook"></li>
+</ul>
+</div>
+</nav>
+</header>
+</div>
+<!-- INICIO DE LA PREGUNTAS A PRESUPUESTO -->
+
+<main id= presupuesto>
+
+
+ 
+    <fieldset>
+    <!-- es el titulo del fieldser -->
+    <form> 
+    <!-- label es lo que queremos que el usuario ponga en el type -->
+<section class="izq-pres">
+  <div calss="titu">
+    <h2>Datos de  contacto</h2>
+    
+    </div>
+<spam class="encuesta">
+    <label for="nombre">Nombre =</label>
+        <!-- que espero que ingrese el usuario caja para escribir -- type es para ver que puede escribir el usuario-->
+    <!-- type text - type tel - type number - type email - type password - etc -->
+        <input type="text" id="nombre" riquired> 
+        <!-- riquired hace que ese campo sea obligatorio -->
+<!-- el ID tiene que ser gual que el For, para que se asocie correctamente -->
+</spam>
+
+<section class="encuesta">
+<label for="apellido">Apellido =</label>
+<input type="text" id="apellido" riquiered>
+</section>
+
+<section class="encuesta">
+<label for="dni">DNI =</label>
+<input type="number" id="dni" riquiered>
+</section>
+
+<section class="encuesta">
+<label for="correo">Email =</label>
+<input type="email" id="correo" riquiered>
+</section>
+<section class="encuesta">
+<label for="cel">Telefono de contacto = </label>
+<input type="number" id="cel" riquiered>
+</section>
+
+<section class="encuesta">
+<!-- fieldeset agrupa formularios -->
+<label for="nombre">Tipo de consulta =</label>
+<!-- select la lista desplegable -->
+<select name="modelo" id="nombre">
+    <!-- öpcion son las opciones  -->
+
+    <option value="1"> Portones</option>
+    <option value="2"> Rejas</option>
+    <option value="3">Service</option>
+    <option value="4">Automatisacion</option>
+    <option value="5">Techo</option>
+    <option value="6">baranda y escaleras</option>
+  </select>
+    <!-- input type "checbox" nos da un recuadro que nos permite marcar  -->
+
+<!-- imput type="radio" nos permite elegir una sola opcion -->
+</section>
+</form>
+
+
+<section class="encuesta">
+<!-- boton para enviar  -->
+<form method="get" action="../index.html">
+    <input type="submit" value="Enviar este formulario">
+</form>
+</section>
+
+</section>
+
+
+    </form>
+  </fieldset>
+  <section class="img">
+  <img src="../imagnes/presupueto.jpg" alt="presupuesto">
+</section>
+</main>
+
+
+<footer class="presupuesto">
+ 
+</footer>
+</html>

@@ -1,0 +1,531 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #c1c3be;
+}
+/* color del nav */
+header {
+  text-decoration: none;
+  color: #aea885;
+  background-color: #545b5c;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    
+}
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* logo Home*/
+header nav ul li a {
+  text-decoration: none;
+  color: #aea885;
+  margin: 0px 30px;
+  
+}
+/* flex de la nav nav  */
+ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+
+
+#preupuesto {
+  background-image: url(https://asisport.com.ar/portones-automaticos/wp-content/uploads/2020/08/Automatizacion-de-portones-levadizos-corredizos-batientes-en-ZONA-NORTE.-1-1024x410.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* separacion en el cuadro */
+  padding: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+#preupuesto a {
+  text-decoration: none;
+  width: 20%;
+  height: auto;
+  border-radius: 20px;
+  color: #aea885;
+  background-color: #545b5c;
+  display: flex;
+  justify-content: space-around;
+}
+.titulo {
+  background-color: #545b5c;
+  margin-bottom: 50px;
+  height: 30px;
+  width: 100%;
+  border-radius: 30px;
+  color: #aea885;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  grid-area: titulo;
+ 
+}
+/* Flex de productos */
+#productos {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#productos h2 {
+  background-color: #545b5c;
+  height: 50px;
+  width: 300px;
+  border-radius: 30px;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  color: #aea885;
+}
+.auto,
+.bye,
+.portones,
+.techo {
+  text-decoration: none;
+  color: #aea885;
+  width: 50%;
+  height: 200px;
+  background-color: #545b5c;
+  margin: 0 50px;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  margin-bottom: 60px;
+  /* separacion en el cuadro */
+  padding: 40px;
+}
+
+/* css de los botones del link */
+body maid a {
+  background-color: #aea885;
+  padding: 20px;
+  border-radius: 30px;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  color: #0c4160;
+  padding: 0px 30px;
+}
+
+/* Footer index */
+
+#index {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.profesionalismo {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  border-radius: 30px;
+  width: 800px;
+  height: 100px;
+  background-color: #545b5c;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  align-content: space-between;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+}
+
+footer {
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  color: #aea885;
+}
+footer a {
+  font-family: "Roboto Slab", serif;
+  background-color: #aea885;
+  padding: 20px;
+  border-radius: 30px;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  color: #0c4160;
+  padding: 0px 30px;
+}
+
+/* css de portones levadizos y rejas  */
+
+.pyr {
+  width: 90%;
+  margin: 10px;
+  padding: 100px 0;
+    display: grid;
+    grid-gap:0px;
+    grid-template-areas:
+   " explicaciones  tipoportones";
+    justify-items:center;
+  }
+
+
+.tipoportones {
+ border-radius: 30px;
+  color: #545b5c;
+  /* width: 20%; */
+  /* height: auto; */
+  background-color: #c1c3be;
+  margin: 50px 0px;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  
+}
+
+.card {
+  border-radius: 30px;
+  text-align: center;
+  color: #aea885;
+  width: 90%;
+  height: auto;
+  background-color: #545b5c;
+  margin: 20px 20px;
+ 
+}
+.card img {
+
+border-radius: 20px;
+}
+.tit {
+  background-color: #545b5c;
+  margin-bottom: 50px;
+  height: auto ;
+  width: 90%;
+  border-radius: 30px;
+  color: #aea885;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  margin: 20px 20px;
+}
+.expli {
+  width: 90%;
+  height: auto ;
+  border-radius: 30px;
+  grid-area: explicaciones;
+}
+
+#portones {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 30px 20px;
+}
+
+#portones img {
+  border-radius: 20px;
+  margin: 10px 20px;
+}
+
+.encabezado {
+  border-radius: 30px;
+  text-align: center;
+  color: #545b5c;
+  width: 30%;
+  height: 30%; 
+  margin: 50px 10px;
+  
+}
+.encabezado img {
+  border-radius: 30px;
+  width: 98%;
+  height: auto;
+}
+.corredizo,
+.pivotante,
+.levadizo {
+  text-decoration: none;
+  color: #aea885;
+  /* width: 500px; */
+  /* height: 330px; */
+  background-color: #545b5c;
+  margin: 20px 20px;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  margin-bottom: 60px;
+  /* separacion en el cuadro */
+  padding: 40px;
+  
+}
+
+#galeria {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  grid-area: Galeria;
+}
+.rejas {
+  text-decoration: none;
+  color: #aea885;
+  width: 100%;
+  height: auto;
+  background-color: #545b5c;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  margin-bottom: 60px;
+  /* separacion en el cuadro */
+  padding: 40px;
+  
+}
+
+.rejas img {
+  border-radius: 30px;
+  margin: 10px 10px;
+}
+
+#footerpyr {
+  background-image: url(https://asisport.com.ar/portones-automaticos/wp-content/uploads/2020/08/Automatizacion-de-portones-levadizos-corredizos-batientes-en-ZONA-NORTE.-1-1024x410.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* separacion en el cuadro */
+  padding: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+#footerpyr {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#footerpyr a {
+  text-decoration: none;
+  color: #aea885;
+  text-align: center;
+  background-color: #545b5c;
+  height: 20px;
+  width: 200px;
+  border-radius: 30px;
+  grid-area: piedepagina;
+}
+
+/* presupuesto */
+
+#presupuesto {
+  border-radius: 30px;
+  text-align: center;
+  color: #aea885;
+  width: 98%;
+  height: auto;
+  background-color: #545b5c;
+  margin: 150px 15px;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+   display: grid; 
+   grid-gap:5px; 
+   grid-template-areas: 
+   "izq-pres imge" 
+  }
+
+
+
+#presupuesto img {
+border-radius: 20%;
+  width: 45%;
+  height: auto;
+  margin: 10px 10px;
+
+}
+
+.img {
+  grid-area: imge;
+}
+.izq-pres {
+  width: 100%;
+  text-decoration: none;
+  grid-area: izq-pres;
+}
+
+
+.encuesta {
+  color: #aea885;
+  width: 100%;
+  height: auto ;
+  margin: 30px 20px;
+  border-radius: 10px;
+  /* separacion en el cuadro */
+  display: flex ;
+ 
+
+}
+
+
+
+/* css de Automatisaciones y servicios */
+
+.ayc {
+  width: 100%;
+  margin: auto;
+  /* padding: 100px 0; */
+display: grid;
+grid-gap:100px;
+grid-template-areas:
+"derecho-ayc  izquierdo-ayc"
+" video izquierdo-ayc"
+"video izquierdo-ayc";
+justify-items:center;
+padding: 0px 10px;
+    }
+.card-ayc{
+  border-radius: 30px;
+  color: #aea885;
+  width: 90%;
+  height: auto;
+  background-color: #545b5c;
+  margin: 20px 20px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.card-ayc a{
+text-decoration: none;
+background-color: #aea885;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Roboto Slab", serif;
+  color: #0c4160;
+  padding: 5px 20px;
+  margin: 10px 0px;
+}
+
+.card-ayc img{
+  border-radius: 20px;
+  margin: 10px 0px;
+  width:90%;
+  height: auto;
+}
+
+.card-ayc p {
+margin: 10px 0px;
+text-align: center;
+}
+
+.derecho-ayc{
+  border-radius: 30px;
+  color: #aea885;
+  width: 100%;
+  height: auto;
+  background-color: #545b5c;
+  margin: 20px 20px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  grid-area: derecho-ayc;
+}
+.derecho-ayc img {
+  width: 90%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+.derecho-ayc h1 {
+  font-family: Serifa;
+  font-size: 300%;
+
+}
+.derecho-ayc p {
+  margin: 10px 0px;
+text-align: center;
+}
+
+.izquierdo-ayc {
+  border-radius: 30px;
+  color: #545b5c;
+  width: 100%;
+  height: auto;
+  background-color: #c1c3be;
+  margin: 20px 20px;
+  grid-area:izquierdo-ayc;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  
+}
+
+.video {
+  border-radius: 30px;
+  color: #aea885;
+  width: 100%;
+  height: auto;
+  background-color: #c1c3be;
+  margin: 20px 20px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  grid-area:video;
+}
+
+.video iframe {
+  border-radius: 5px;
+  margin: 20px ; 
+}
+
+/* css barandas y escaleras  */
+
+.galeria {
+  border-radius: 30px;
+  text-align: center;
+  color: #aea885;
+  background-color: #545b5c;
+  display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+
+ }
+
+.galeria img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+margin: 10px;
+
+}
+
