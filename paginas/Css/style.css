@@ -6,25 +6,17 @@
 
 body {
   font-family: "Roboto Slab", serif;
-  background-color: #c1c3be;
+  background-image: url(https://fondosmil.com/fondo/3874.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* color del nav */
 header {
-  text-decoration: none;
-  color: #aea885;
-  background-color: #545b5c;
-  position: fixed;
+ position: fixed;
   top: 0px;
   width: 100%;
   }
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 .redes{
   display: flex;
   flex-direction: row;
@@ -41,11 +33,7 @@ header nav ul li a {
   margin: 0px 30px;
   
 }
-/* flex de la nav nav  */
-ul li {
-  list-style: none;
-  padding: 0px 10px;
-}
+
 
 
 
@@ -57,29 +45,18 @@ ul li {
   padding: 300px;
   display: flex;
   justify-content: center;
-  margin: 20px 0px;
+ 
 }
 
-#preupuesto a {
-  text-decoration: none;
-  width: 20%;
-  height: auto;
-  border-radius: 20px;
-  color: #aea885;
-  background-color: #545b5c;
-  display: flex;
-  justify-content: space-around;
-}
+
+
 .titulo {
-  background-color: #545b5c;
+  background-color: #a4a6a1;
   margin-bottom: 50px;
-  height: 30px;
+  height: 40px;
   width: 100%;
-  border-radius: 30px;
-  color: #aea885;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+ color: #706b50;
+  
   display: flex;
   align-content: space-around;
   justify-content: center;
@@ -89,18 +66,17 @@ ul li {
 /* Flex de productos */
 #productos {
   display: flex;
-  align-content: center;
+  align-content: start;
   flex-wrap: wrap;
 }
 #productos h2 {
   background-color: #545b5c;
-  height: 50px;
-  width: 300px;
-  border-radius: 30px;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  /* height: 50px; */
+  /* width: 300px; */
+ border-radius: 30px;
+  
   color: #aea885;
+  margin: 30px 0px;
 }
 .auto,
 .bye,
@@ -108,18 +84,14 @@ ul li {
 .techo {
   text-decoration: none;
   color: #aea885;
-  width: 50%;
-  height: 200px;
+  
   background-color: #545b5c;
   margin: 0 50px;
   text-align: center;
   border-radius: 30px;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
   margin-bottom: 60px;
   /* separacion en el cuadro */
-  padding: 40px;
+  /* padding: 40px; */
 }
 
 /* css de los botones del link */
@@ -151,9 +123,7 @@ body maid a {
   margin-right: 10px;
   margin-bottom: 20px;
   align-content: space-between;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+  
 }
 
 footer {
@@ -193,9 +163,7 @@ footer a {
   /* height: auto; */
   background-color: #c1c3be;
   margin: 50px 0px;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -272,9 +240,7 @@ border-radius: 20px;
   margin: 20px 20px;
   text-align: center;
   border-radius: 30px;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+ 
   margin-bottom: 60px;
   /* separacion en el cuadro */
   padding: 40px;
@@ -295,9 +261,7 @@ border-radius: 20px;
   background-color: #545b5c;
   text-align: center;
   border-radius: 30px;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+
   margin-bottom: 60px;
   /* separacion en el cuadro */
   padding: 40px;
@@ -348,9 +312,7 @@ border-radius: 20px;
   height: auto;
   background-color: #545b5c;
   margin: 150px 15px;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+ 
    display: grid; 
    grid-gap:5px; 
    grid-template-areas: 
@@ -481,9 +443,7 @@ text-align: center;
   display:flex;
   flex-direction:column;
   align-items: center;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+
   
 }
 
@@ -497,9 +457,7 @@ text-align: center;
   display:flex;
   flex-direction:column;
   align-items: center;
-  -webkit-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  -moz-box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
-  box-shadow: 8px 8px 14px 9px rgba(174, 168, 133, 1);
+
   grid-area:video;
 }
 

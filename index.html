@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,82 +6,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-<!-- le da imagen al lado del nombre de la pestaña  -->
+    <!-- le da imagen al lado del nombre de la pestaña  -->
     <link rel="shortcut icon" href="./imagnes/logo.png" type="imagne/x-icon">  
-  <!-- link a css si o si tiene que estar en el head-->
+    <!-- LINK CDM BOOTSTAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <!-- link a css si o si tiene que estar en el head-->
   <link rel="stylesheet" href="./paginas/Css/style.css">
-<!-- las fuentes de google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600&display=swap" rel="stylesheet">
-  </head>
+    
+  <header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <!-- logo empresa  -->
+    <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img width="75" src="./imagnes/logo.png" alt="Logo de la empresa"></a>
 
-<body class="body">
-<header>
- <img width="75" src="./imagnes/logo.png" alt="Logo de la empresa">
-  
-  <nav>
-  <ul>
-  <li><a href="#body">Home</li></a>
-  <li><a href="#productos">Productos</a></li>
-  <li><a href="./paginas/Presupueto.html">Contactos</a></li>
-  <li><a href="#index" >Nosotros</a></li>
-</ul>
-<div class="redes">
-  <ul>
-<li><img width="20"  src="./imagnes/youtube.png" alt="logo youtube"></li>
-<li><img width="20" src="./imagnes/instagram.png" alt="logo instegram"></li>
-<li><img width="20"  src="./imagnes/facebook.png" alt=" logo facebook"></li>
-</ul>
-</div>
-</nav>
-
-</header>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#body">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/Presupueto.html">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#index">Nosotros</a>
+              </li>
+            </ul>
+            <span class="navbar-text" >
+                <img width="40"  src="./imagnes/youtube.png" alt="logo youtube">
+                <img width="40" src="./imagnes/Instegram.png" alt="logo instegram">
+                <img width="40"  src="./imagnes/Facebook (1).png" alt=" logo facebook">
+            </span>
+          </div>
+        </div>
+      </nav>
+  </header>
+</head>
+<body class="body"></body>
   <maid>
     <section id="preupuesto">
-    <a class="button" href="./paginas/Presupueto.html">Presupuesto</a>
+      <button type="button" class="btn btn-outline-light"><a href="./paginas/Presupueto.html">PRESUPUESTO</a></button>
 </section>
+<div class="col-12">
  <div class="titulo"> <h2>Productos</h2></div>
-  <section id="productos">
+</div>
+  <section calss="row" id="productos">
+    <div class="col-12 col-md-6" >
      <article class="portones"> <h3>Portones y Rejas</h3>
       <p>lorem ipsum dolor sit amet, consectetur adip</p>
       <a href="./paginas/PyR.html">Mas info</a></article>
-   <article class=" auto">
+    </div>
+   <div class="col-12 col-md-6 ">
+      <article class="auto">
     <h3> Automatisaciones y servicios</h3>
     <p>lorem ipsum dolor sit amet, consectetur adip</p>
     <a href="./paginas/AyC.html">Mas infos</a></article> 
-  <article class="bye">
+  </div>
+  <div class="col-12 col-md-6 ">
+    <article class="bye">
     <h3>Barandas y Escaleras</h3>
     <p>lorem ipsum dolor sit amet, consectetur adip</p>
     <a href="./paginas/bye.html">Mas info</a></article>
+  </div>
+    <div class="col-12 col-md-6 ">
 <article class="techo">
   <h3>Techos</h3>
   <p>lorem ipsum dolor sit amet, consectetur adip</p>
   <a href="./paginas/techo.html">Mas info</a></article>
+</div>
 </section>
 
 </maid>
 
-
-<footer id="index">
-  <div class="titulo">
+  
+<div class="titulo">
   <h2>Porque elegiros</h2>  
 </div>
 
-<section class="profesionalismo"><h3>Experiencia</h3> 
+<section calss="row" id="index"> 
+  
+  <div class="col-12 col-md-6 ">
+<section class="bye"><h3>Experiencia</h3> 
 <p>Contamos con más de 25 años de trayectoria en el rubro. Todos los trabajos son con garantía. </p>
 </section>
-
-<section class="profesionalismo">
-  <h3>Reparacion</h3>
-<p>IReparación de portones manuales: Cambio de ruedas, cambios de cables de acero, cambio de roldanas etc.</p>
-<a href="./paginas/AyC.html"> Mas Info.</a>
-</section>
-
-
-<section class="profesionalismo"><h3>Profesionalismo</h3>
+  </div>
+  <div class="col-12 col-md-6 ">
+<section class="bye"><h3>Profesionalismo</h3>
 <p>Ofrecemos los precios más competitivos, atención personalizada y servicios de calidad para los proyectos de herrería que requieras en tu negocio o domicilio.</p>
 </section>
+</div>
+  
+  <div class="col-12 col-md-6 ">
+<article class="bye">
+  
+<h3>Reparacion</h3>
+<p>IReparación de portones manuales: Cambio de ruedas, cambios de cables de acero, cambio de roldanas etc.</p>
+<a href="./paginas/AyC.html"> Mas Info.</a>
+</article>
+</div>
 
+</section>
+<!-- LINK CDM BOOTSTAP  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+
+<footer>
 </footer>
 </html>
