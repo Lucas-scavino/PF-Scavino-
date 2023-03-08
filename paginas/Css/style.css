@@ -176,7 +176,7 @@ footer a {
   
 }
 
-.card {
+.cart {
   border-radius: 30px;
   text-align: center;
   color: #aea885;
@@ -186,7 +186,7 @@ footer a {
   margin: 20px 20px;
  
 }
-.card img {
+.cart img {
 
 border-radius: 20px;
 }
@@ -222,9 +222,10 @@ border-radius: 20px;
 }
 
 .encabezado {
+ 
   border-radius: 30px;
   text-align: center;
-  color: #545b5c;
+  color: #e4f3f5;
   width: 30%;
   height: 30%; 
   margin: 50px 10px;
