@@ -165,14 +165,14 @@ footer a {
 .tipoportones {
  border-radius: 30px;
   color: #545b5c;
-  /* width: 20%; */
-  /* height: auto; */
+   width: 100%; 
+   height: auto; 
   background-color: #c1c3be;
   margin: 50px 0px;
-
   display: flex;
   align-content: center;
   flex-direction: column;
+  flex-wrap:wrap
   
 }
 
@@ -187,7 +187,6 @@ footer a {
  
 }
 .cart img {
-
 border-radius: 20px;
 }
 .tit {
@@ -200,6 +199,7 @@ border-radius: 20px;
   display: flex;
   align-content: space-around;
   justify-content: center;
+  align-items: center;
   margin: 20px 20px;
 }
 .expli {
@@ -308,6 +308,7 @@ border-radius: 20px;
   border-radius: 30px;
   grid-area: piedepagina;
 }
+
 
 /* presupuesto */
 
