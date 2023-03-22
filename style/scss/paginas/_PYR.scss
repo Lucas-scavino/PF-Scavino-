@@ -1,0 +1,141 @@
+// Frid contenedor
+.pyr {
+  padding: 100px 0;
+}
+//   Contenido de la derecha
+.tipoportones {
+  border-radius: 30px;
+  color: $color-cart;
+  background-color: $color-letra-claro;
+  margin: 50px 0px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .cart {
+    border-radius: 30px;
+    text-align: center;
+    color: #aea885;
+    width: 90%;
+    height: auto;
+    background-color: #545b5c;
+    margin: 20px 20px;
+    img {
+      border-radius: 20px;
+    }
+  }
+  .tit {
+    background-color: #545b5c;
+    margin-bottom: 50px;
+    height: auto;
+    width: 90%;
+    border-radius: 30px;
+    color: #aea885;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+  }
+}
+
+//   contenido de la izquierda
+
+.encabezado {
+  border-radius: 30px;
+  text-align: center;
+  color: $color-letra;
+  width: 100%;
+  height: auto;
+  margin: 50px 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  align-content:center;
+  img {
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+  }
+}
+
+.expli {
+  margin: 50px 0px;
+  height: auto;
+  
+  h2 {
+    text-align: center;
+    color: $color-letra;
+    background-color: $color-cart;
+    width: 100%;
+    border-radius: 30px;
+  }
+  .corredizo {
+    text-decoration: none;
+    color: $color-cart;
+    background-color: $color-letra-claro;
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    align-content:center;
+    img {
+      border-radius: 30px;
+      width: 35%;
+      height: auto;
+      margin: 20px 20px;
+     
+
+
+
+    }
+  }
+}
+
+#galeria {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.rejas {
+  text-decoration: none;
+  color: #aea885;
+  width: 100%;
+  height: auto;
+  background-color: #545b5c;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom: 60px;
+  /* separacion en el cuadro */
+  padding: 40px;
+  img {
+    border-radius: 30px;
+    margin: 10px 10px;
+  }
+}
+
+#footerpyr {
+  background-image: url(https://asisport.com.ar/portones-automaticos/wp-content/uploads/2020/08/Automatizacion-de-portones-levadizos-corredizos-batientes-en-ZONA-NORTE.-1-1024x410.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* separacion en el cuadro */
+  padding: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  a {
+    text-decoration: none;
+    color: #aea885;
+    text-align: center;
+    background-color: #545b5c;
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+  }
+}

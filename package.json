@@ -1,0 +1,21 @@
+{
+  "name": "gesca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-scss": " sass --watch ./style/scss/styke.scss ./style/css/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-scavino/Gesca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas-scavino/Gesca/issues"
+  },
+  "homepage": "https://github.com/Lucas-scavino/Gesca#readme"
+}

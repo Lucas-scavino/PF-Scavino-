@@ -1,0 +1,42 @@
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    nav ul li a {
+      text-decoration: none;
+      color: $color-letra;
+      margin: 0px 30px;
+    }
+  }
+  
+  .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  #preupuesto {
+    background-image: url(https://asisport.com.ar/portones-automaticos/wp-content/uploads/2020/08/Automatizacion-de-portones-levadizos-corredizos-batientes-en-ZONA-NORTE.-1-1024x410.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* separacion en el cuadro */
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titulo {
+    background-color: $color-letra;
+    margin-bottom: 50px;
+    height: 40px;
+    width: 100%;
+    color: color-cart;
+  
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    grid-area: titulo;
+  }

@@ -1,0 +1,59 @@
+
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: url(https://fondosmil.com/fondo/3874.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  maid a {
+    text-decoration: none;
+  }
+}
+
+
+
+#presupuesto {
+  text-align: center;
+  color: $color-letra;
+  background-color:$color-cart;
+  margin: 150px 15px;
+  border-radius: 20px;
+  img {
+    border-radius: 20%;
+    width: 45%;
+    height: auto;
+    margin: 10px 10px;
+  }
+}
+
+// productos css
+.portones {
+    text-decoration: none;
+    color: #aea885;
+   background-color: #545b5c;
+    margin: 0 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    a {
+        background-color: #aea885;
+         border-radius: 30px;
+        font-family: "Roboto Slab", serif;
+        color: #0c4160;
+        padding: 0px 30px;
+        
+      }
+  
+  }
+
+//   #productos {
+    // display: flex;
+    // align-content: start;
+    // flex-wrap: wrap;
+    // h2 {
+    //   background-color: $color-cart;
+    //  border-radius: 30px;
+    //  color: $color-letra;
+    //   margin: 30px 0px;
+    // } }
+
