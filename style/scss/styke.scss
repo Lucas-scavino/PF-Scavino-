@@ -10,6 +10,8 @@
 @import "./paginas/_PYR";
 // import Automatisacion y servicio 
 @import "./paginas/AyS.scss";
+// Galeria de barandas y escaleras
+@import "./paginas/ByE";
 
 
 
@@ -20,44 +22,5 @@
 
 
 
-
-
-
-/* Footer index */
-
-
-
-
-
-
-
-/* css barandas y escaleras  */
-.galeria {
-  background-color: #545b5c;
-  display: flex;
-  width: 100%;
-  height: 50%;
-  img {
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-    margin: 10px;
-  }
-}
-
-.imga {
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: 8;
-  
-}
-
-.galeria img:hover {
-  cursor: crosshair;
-  width: 300px;
-  opacity: 1;
-  filter: contrast(120%);
-}
 
 

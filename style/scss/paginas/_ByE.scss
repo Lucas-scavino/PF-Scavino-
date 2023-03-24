@@ -1,0 +1,22 @@
+.galeria {
+    background-color: #545b5c;
+    display: flex;
+    width: 100%;
+    height: auto;
+    img{
+      width: 0px;
+      flex-grow: 1;
+      object-fit: cover;
+      opacity: .9;
+      transition : .5 ease;
+  
+    }
+    img:hover {
+      cursor: crosshair;
+      width: 400px;
+      opacity: 4;
+      filter: contrast(120%);
+    }
+  }
+  
+  
