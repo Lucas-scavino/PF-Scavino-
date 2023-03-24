@@ -222,44 +222,6 @@ body maid a {
   border-radius: 30px;
 }
 
-/* Footer index */
-#index {
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-}
-
-.profesionalismo {
-  font-family: "Roboto Slab", serif;
-  text-align: center;
-  border-radius: 30px;
-  width: 800px;
-  height: 100px;
-  background-color: #545b5c;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  align-content: space-between;
-}
-
-footer {
-  font-family: "Roboto Slab", serif;
-  text-decoration: none;
-  color: #aea885;
-}
-footer a {
-  font-family: "Roboto Slab", serif;
-  background-color: #aea885;
-  padding: 20px;
-  border-radius: 30px;
-  font-family: "Roboto Slab", serif;
-  text-decoration: none;
-  color: #0c4160;
-  padding: 0px 30px;
-}
-
-/* css de portones levadizos y rejas  */
-/* presupuesto */
-/* css de Automatisaciones y servicios */
 .ayc {
   width: 100%;
   margin: auto;
@@ -360,6 +322,7 @@ footer a {
   margin: 20px;
 }
 
+/* Footer index */
 /* css barandas y escaleras  */
 .galeria {
   background-color: #545b5c;
