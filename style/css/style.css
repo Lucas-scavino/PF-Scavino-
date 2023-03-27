@@ -70,21 +70,54 @@ body maid a {
   margin: 10px 10px;
 }
 
-.portones {
-  text-decoration: none;
-  color: #aea885;
-  background-color: #545b5c;
-  margin: 0 50px;
-  text-align: center;
-  border-radius: 30px;
-  margin-bottom: 60px;
+.contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
 }
-.portones a {
-  background-color: #aea885;
-  border-radius: 30px;
-  font-family: "Roboto Slab", serif;
+.contenedor .portones {
+  background-color: #545b5c;
+  color: #aea885;
+  margin: 30px 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  transition: all 400ms ease;
+}
+.contenedor .portones img {
+  width: 100%;
+  height: 510px;
+}
+.contenedor .portones .contenido {
+  padding: 15px;
+  text-align: center;
+}
+.contenedor .portones h3 {
+  margin-bottom: 15px;
+}
+.contenedor .portones a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
   color: #0c4160;
-  padding: 0px 30px;
+  border: 2px solid #0c4160;
+  background-color: #aea885;
+  border-radius: 10px;
+  transition: all 400ms ease;
+}
+.contenedor .portones a:hover {
+  background: #0c4160;
+  color: #aea885;
+}
+
+.portones:hover {
+  transform: traslaterY(50%);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(212, 199, 199, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(212, 199, 199, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(212, 199, 199, 0.75);
 }
 
 .pyr {
